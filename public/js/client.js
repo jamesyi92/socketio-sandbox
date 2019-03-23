@@ -7,7 +7,7 @@ const chatCtrl = (function (){
     const chatVal = document.querySelector('input.form-control.mb-3');
     form.addEventListener('submit', (e) => {
       if(!chatVal.value.length) {
-        alert('Enter a mesasge please');
+        return alert('Enter a mesasge please');
       }
       e.preventDefault();
       socket.emit('chat message', chatVal.value);

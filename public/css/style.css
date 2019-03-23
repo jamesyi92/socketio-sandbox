@@ -1,0 +1,18 @@
+.msgbox{
+	width: 100%;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+	border-radius: 4px;
+	margin: 20px 0;
+}
+
+.msgbox__head{
+	display: flex;
+	padding-bottom: 20px;
+}
+
+
+.form-group input {
+	padding: 30px;
+}
